@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="weather-container">
+        <h1>Weather Portal</h1>
+
+        <div class="search-box">
+            <input type="text" id="cityInput" placeholder="Enter city name">
+            <button id="searchBtn">Search</button>
+        </div>
+
+        <div id="loading">Loading...</div>
+        <div id="error"></div>
+
+        <div id="weatherResult">
+            <h2 id="cityName"></h2>
+            <p id="temperature"></p>
+            <p id="description"></p>
+            <p id="humidity"></p>
+            <p id="wind"></p>
+        </div>
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
